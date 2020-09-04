@@ -1,0 +1,143 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #4267b2;
+  text-decoration: none;
+}
+h1 {
+  margin: 10px 0px;
+}
+h3 {
+  margin: 10px 0px;
+}
+body {
+  background-color: lightgray;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+header img {
+  position: relative;
+  left: 20px;
+  top: 60px;
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  z-index: 10;
+  border: 2px solid white;
+}
+.title {
+  color: white;
+  position: relative;
+  top: 240px;
+  left: 240px;
+}
+header {
+  box-sizing: border-box;
+  height: 350px;
+  width: 850px;
+  background-color: #4267b2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  background-color: white;
+  padding-left: 230px;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: lightgrey;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  display: inline;
+}
+button {
+  border-radius: 6px;
+  height: 28px;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: top;
+  background-color: white;
+  border: none;
+}
+
+.buttons {
+  position: relative;
+  left: 525px;
+  top: -10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin-top: 10px;
+  width: 850px;
+  height: 1175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftcolumn {
+  float: left;
+  width: 328px;
+  margin: 0;
+}
+.rightcolumn {
+  float: left;
+  width: 512px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  margin-top: 10px;
+}
+.card h3 {
+  margin: 5px 0px;
+}
+.card .profilepicture {
+  float: left;
+  width: 49px;
+  margin: 0px 10px 20px 0px;
+}
+.card .linkedimage {
+  width: 492px;
+}
+
+.card .activity {
+  width: 140px;
+}
+.activitytext {
+  position: relative;
+  top: -50px;
+  left: 10px;
+}
+
+h5 {
+  margin: 10px 0 0 0px;
+}
+
+.footer {
+  font-size: 14px;
+}
